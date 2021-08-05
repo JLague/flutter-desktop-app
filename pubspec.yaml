@@ -1,5 +1,5 @@
 name: github_graphql_client
-description: A new Flutter project.
+description: Github client using Github API V4 (GraphQL)
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -23,6 +23,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  http: ^0.13.1
+  oauth2: ^2.0.0
+  url_launcher: ^6.0.2
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -32,6 +35,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_lints: ^1.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
